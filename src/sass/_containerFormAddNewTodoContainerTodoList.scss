@@ -1,0 +1,12 @@
+.container-form-add-new-todo-container-todo-list {
+ 
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+
+  width: 100%;
+  transform: translateY(-6rem);
+  // transform: translateX(-50%);
+}
+

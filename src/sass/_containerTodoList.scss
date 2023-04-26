@@ -1,0 +1,88 @@
+.container-todo-list {
+  border-radius: 0.5rem;
+}
+
+.container-todo-list--theme-light {
+  background-color: $very-light-grayish-blue;
+}
+
+.container-todo-list--theme-dark {
+  background-color: $Very-Dark-Desaturated-Blue;
+}
+
+.container-todo-list__container-btns {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 1rem 2rem;
+}
+
+.container-todo-list__container-btns__btn {
+  all: unset;
+
+  font-size: 1.4rem;
+}
+
+.container-todo-list__container-btns__btn--theme-light {
+  color: $dark-grayish-blue;
+}
+
+.container-todo-list__container-btns__btn--theme-dark {
+  color: $Dark-Grayish-Blue;
+}
+
+.user-actions {
+  display: flex;
+  justify-content: center;
+
+  border-radius: 0.5rem;
+}
+
+.user-actions--theme-light {
+  background-color: $very-light-grayish-blue;
+}
+
+.user-actions--theme-dark {
+  background-color: $Very-Dark-Desaturated-Blue;
+}
+
+.user-actions__container {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 50rem;
+}
+
+.user-actions__container__btn {
+  all: unset;
+
+  padding: 1rem 1.5rem;
+
+  font-size: 1.6rem;
+  font-weight: 700;
+
+  transition: 0.3s;
+}
+
+.user-actions__container__btn--theme-light {
+  color: $dark-grayish-blue;
+}
+
+.user-actions__container__btn--theme-light:hover {
+  color: $very-dark-grayish-Blue;
+}
+
+.user-actions__container__btn-theme-light--active {
+  color: $very-dark-grayish-Blue;
+}
+
+.user-actions__container__btn--theme-dark {
+  color: $Dark-Grayish-Blue;
+}
+
+.user-actions__container__btn--theme-dark:hover {
+  color: $Light-Grayish-Blue-hover;
+}
+
+.user-actions__container__btn-theme-dark--active {
+  color: $Light-Grayish-Blue-hover;
+}

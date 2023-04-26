@@ -1,0 +1,36 @@
+.container-form-add-new-todo-container-todo-list > .containerTodoTaskEButton {
+  border-radius: 0.5rem;
+  border-bottom: none;
+}
+
+.containerTodoTaskEButton {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 1rem 2rem;
+}
+
+.containerTodoTaskEButton:first-child {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.containerTodoTaskEButton--theme-light {
+  background-color: $very-light-grayish-blue;
+  color: $Very-Dark-Grayish-Blue-two;
+  border-bottom: 0.1rem solid $dark-grayish-blue;
+}
+
+.containerTodoTaskEButton--theme-dark {
+  background-color: $Very-Dark-Desaturated-Blue;
+   color: $Light-Grayish-Blue;
+  border-bottom: 0.1rem solid $Light-Grayish-Blue-hover;
+}
+
+.container-todo-list > .containerTodoTaskEButton:first-child {
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.containerTodoTaskEButton:last-child {
+  border-bottom: unset;
+}

@@ -1,0 +1,31 @@
+
+.container-input-e-error {
+  display: flex;
+  flex-direction: column;
+  row-gap: .5rem;
+}
+
+.form__text-input {
+  all: unset;
+  flex-basis: 90%;
+
+  font-size: 1.6rem;
+
+  cursor: text;
+}
+
+.form__text-input--theme-light {
+  color: $very-dark-grayish-Blue;
+}
+
+.form__text-input--theme-dark {
+  color: $Light-Grayish-Blue;
+}
+
+.form__text-input::placeholder {
+  color: $Dark-Grayish-Blue;
+}
+
+.form__text-input__error {
+  color: rgb(159, 0, 0);
+}

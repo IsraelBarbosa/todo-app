@@ -1,0 +1,66 @@
+.form-container-checkbox {
+  position: relative;
+
+  margin-right: 1rem;
+}
+
+.form-checkbox-custom {
+  position: absolute;
+  top: 0.2rem;
+  left: 0;
+  z-index: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 2rem;
+  height: 2rem;
+
+  border-radius: 1rem;
+
+  cursor: pointer;
+}
+
+.form-checkbox-custom--theme-light {
+  border: 0.1rem solid $light-grayish-blue;
+}
+
+.form-checkbox-custom--theme-dark {
+  border: 0.1rem solid $Very-Dark-Grayish-Blue-one;
+}
+
+.form-checkbox-custom--checked {
+  background-image: $check-background;
+}
+
+
+.form-checkbox-custom__icon {
+  display: none;
+
+  fill: $bright-blue;
+}
+
+.form-checkbox-custom__icon--display {
+  display: block;
+}
+
+.form__checkbox {
+  position: relative;
+  z-index: 2;
+
+  width: 2.2rem;
+  height: 2rem;
+
+  opacity: 0;
+
+  cursor: pointer;
+}
+
+.form__checkbox--theme-light {
+  color: $dark-grayish-blue;
+}
+
+.form__checkbox--theme-dark {
+  color: $light-grayish-blue;
+}

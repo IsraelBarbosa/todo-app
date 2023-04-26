@@ -1,0 +1,30 @@
+.btn-remove-todo {
+  all: unset;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-remove-todo__icon {
+  width: 2rem;
+  height: 2rem;
+
+  transition: 0.3s;
+}
+
+.btn-remove-todo__icon--theme-light {
+  fill: $dark-grayish-blue;
+}
+
+.btn-remove-todo__icon--theme-dark {
+  fill: $Very-Dark-Grayish-Blue-one;
+}
+
+.btn-remove-todo:hover .btn-remove-todo__icon--theme-light {
+  fill: $very-dark-grayish-Blue;
+}
+
+.btn-remove-todo:hover .btn-remove-todo__icon--theme-dark {
+  fill: $Dark-Grayish-Blue;
+}

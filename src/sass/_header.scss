@@ -1,0 +1,35 @@
+.header-layout--theme-dark {
+  background-size: cover;
+  background-image: url(../img/bg-mobile-light.jpg);
+}
+
+.header-layout--theme-light {
+  background-size: cover;
+  background-image: url(../img/bg-mobile-dark.jpg);
+}
+
+.header {
+  padding: 10rem 0rem;
+}
+
+.__container-titulo-e-icon__ {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__titulo {
+  font-weight: 700;
+
+  letter-spacing: 1rem;
+
+  color: $bright-blue;
+}
+
+.header__button {
+  all: unset;
+}
+
+.header__button__icon {
+  width: 3rem;
+}
