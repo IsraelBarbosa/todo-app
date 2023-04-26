@@ -1,6 +1,4 @@
 import { createSelector } from 'reselect';
-import { useContext } from 'react';
-import { TodoContext } from '../contexts/todoContext';
 import { ItodoTask } from '../ts/types/interfaces/ItodoTask';
 
 const allTodo = (state: ItodoTask[]) => state;

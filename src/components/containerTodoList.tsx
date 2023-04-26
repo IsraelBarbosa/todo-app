@@ -4,7 +4,6 @@ import { TodoContext } from '../contexts/todoContext';
 import { ItodoTask } from '../ts/types/interfaces/ItodoTask';
 import { FormTodo } from './form/formTodo/formTodo';
 import { DragDropContext, Draggable, Droppable } from 'react-beautiful-dnd';
-import { Theme } from '../ts/types/enums/Etheme';
 
 export const ContainerTodoList = ({ todoList }: { todoList: ItodoTask[] }) => {
   const {
