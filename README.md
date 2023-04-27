@@ -5,7 +5,7 @@ This is a solution to the [Todo app challenge on Frontend Mentor](https://www.fr
 ## Table of contents
 
 - [Overview](#overview)
-  - [How start the project on your local computer](#How-start-the-project-on-your-local-computer)
+  - [How start the project on your local computer](#how-start-the-project-on-your-local-computer)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
@@ -63,8 +63,8 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/IsraelBarbosa/todo-app)
-- Live Site URL: [Add live site URL here](https://resilient-naiad-034f45.netlify.app/)
+- Solution URL: [Click here](https://github.com/IsraelBarbosa/todo-app)
+- Live Site URL: [Click here](https://resilient-naiad-034f45.netlify.app/)
 
 ## My process
 
@@ -76,10 +76,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 - TypeScript
 - Sass
 - [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
 
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
