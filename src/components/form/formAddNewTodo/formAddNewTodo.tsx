@@ -29,7 +29,6 @@ export const FormAddNewTodo = () => {
         })}
         onSubmit={(values, { setSubmitting, resetForm }) => {
           setTimeout(() => {
-            console.log(JSON.stringify(values, null, 2));
             setSubmitting(false);
             dispatch({
               type: 'ADD_NEW_TASK',

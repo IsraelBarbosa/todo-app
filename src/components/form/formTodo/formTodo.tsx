@@ -33,8 +33,6 @@ export const FormTodo = ({
     { setSubmitting }: { [key: string]: any }
   ) {
     setTimeout(() => {
-      console.log(JSON.stringify(values, null, 2));
-
       setSubmitting(false);
 
       dispatch({
@@ -47,9 +45,6 @@ export const FormTodo = ({
         },
       });
       checkboxInputRef.current?.setCheckboxChecked(false);
-      // console.log(checkboxInputRef.current?.toggleDisplayCheckboxIcon);
-
-      // checkboxInputRef.current?.toggleDisplayCheckboxIcon();
     }, 400);
   }
 

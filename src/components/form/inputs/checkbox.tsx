@@ -19,7 +19,6 @@ type TcheckboxProps = Icheckbox;
 export interface IcheckboxHandle {
   setCheckboxChecked: (setChecked: boolean) => void;
   inputCheckbox: () => boolean;
-  // toggleDisplayCheckboxIcon: (displayCheckboxIcon?: boolean) => void;
 }
 
 export const Checkbox = forwardRef<IcheckboxHandle, TcheckboxProps>(
@@ -43,8 +42,7 @@ export const Checkbox = forwardRef<IcheckboxHandle, TcheckboxProps>(
       () => {
         return {
           setCheckboxChecked,
-          inputCheckbox,
-          // toggleDisplayCheckboxIcon,
+          inputCheckbox
         };
       },
       []

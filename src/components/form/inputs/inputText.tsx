@@ -13,7 +13,6 @@ export const TextInput = forwardRef(
 
     return (
       <div className='container-input-e-error'>
-        {/* <label htmlFor={props.id || props.name}>{props.label}</label> */}
         <input
           className={`form__text-input form__text-input--theme-${theme}`}
           ref={ref}

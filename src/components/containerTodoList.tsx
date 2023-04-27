@@ -77,7 +77,6 @@ export const ContainerTodoList = ({ todoList }: { todoList: ItodoTask[] }) => {
       task: { completed: false, id: 'asda', task: 'das' },
       tasks: newItems,
     });
-    // setTodoListState(newItems);
   }
 
   return (
